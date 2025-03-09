@@ -69,15 +69,19 @@ label{
 
 input{
   font-family: inherit;
-  font-size: 100%;
+  font-size: 18px;
   width: 280px;
   height: 30px;
-  padding: 0;
+  padding: 8px;
   margin: 0;
   box-sizing: border-box;
   appearance: none;
   border-radius: 5px;
-  border: 1px solid rgb(45, 40, 40);
+  border: 2px solid lightgreen;
+}
+input:focus{
+    border: 2px solid green;
+    outline: none;
 }
 
 .container3{
